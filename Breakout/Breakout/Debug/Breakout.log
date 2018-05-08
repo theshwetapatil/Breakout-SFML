@@ -1,0 +1,19 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\..\..\GitHub\Portfolio\Game-230-Project-5\Game-230-Project-5\main.cpp, main.cpp.
+  main.cpp
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(399): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(405): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(462): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(469): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(847): warning C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\shweta\downloads\sfml-2.4.2-windows-vc11-32-bit\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(953): warning C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\shweta\downloads\sfml-2.4.2-windows-vc11-32-bit\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(964): warning C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\shweta\downloads\sfml-2.4.2-windows-vc11-32-bit\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+c:\users\shweta\documents\github\portfolio\game-230-project-5\game-230-project-5\main.cpp(972): warning C4996: 'sf::Text::setColor': was declared deprecated
+  c:\users\shweta\downloads\sfml-2.4.2-windows-vc11-32-bit\sfml-2.4.2\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+Debug\main.obj : warning LNK4042: object specified more than once; extras ignored
+     Creating library C:\Users\Shweta\Documents\Visual Studio 2015\Projects\Breakout\Debug\Breakout.lib and object C:\Users\Shweta\Documents\Visual Studio 2015\Projects\Breakout\Debug\Breakout.exp
+sfml-main-d.lib(MainWin32.cpp.obj) : error LNK2001: unresolved external symbol __imp____argc
+sfml-main-d.lib(MainWin32.cpp.obj) : error LNK2001: unresolved external symbol __imp____argv
+C:\Users\Shweta\Documents\Visual Studio 2015\Projects\Breakout\Debug\Breakout.exe : fatal error LNK1120: 2 unresolved externals
